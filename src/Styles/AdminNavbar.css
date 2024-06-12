@@ -1,0 +1,27 @@
+.AdminNavbar {
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background: linear-gradient(to right, red, yellow, blue, lightblue, green);
+}
+
+.logo h1 {
+    font-family: cursive;
+    color: aqua;
+    font-style: italic;
+}
+
+.logo span {
+    background: linear-gradient(to left, black, white, rgb(242, 0, 255), lightgreen);
+    background-clip: text;
+    color: transparent
+}
+
+.AdminNavbar a {
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 40px;
+    font-family: cursive;
+}

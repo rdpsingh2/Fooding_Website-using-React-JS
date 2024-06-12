@@ -1,0 +1,61 @@
+.EditProduct{
+    /* display: flex;
+    text-align: start;
+    justify-content: center; */
+    /* height: 100vh; */
+    /* width: 100vw; */
+    font-family: cursive;
+    /* align-items: center; */
+
+}
+.EditProduct h1{
+   text-align: center;
+}
+.EditProduct label{
+    margin: 5px 20px;
+    padding-top: 10px;
+    text-align: end;
+}
+.EditProduct form{
+    width: 580px;
+    margin: 20px 20px;
+    margin-left: 430px;
+    border: none;
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    box-shadow: 8px 15px 40px rgb(195, 192, 192);
+}
+.EditProduct button{
+    transform: translate(200px);
+    background-color: rgb(106, 83, 52);
+    color: white;
+    border: none;
+    box-shadow: 8px 15px 40px rgb(195, 192, 192);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    margin-right: 400px;
+}
+.EditProduct button:hover{
+    background-color: rgb(45, 105, 105);
+}
+.EditProduct input{
+    outline: none;
+    border:none;
+    border-bottom: 1px;
+    border-radius: 10px;
+   height: 35px;
+   margin-left: 100px;
+   width: 250px;
+   text-align: start;
+}
+.EditProduct> .dish{
+    margin-left: 140px;
+}
+.EditProduct textarea{
+    border: none;
+    border-radius: 5px;
+}

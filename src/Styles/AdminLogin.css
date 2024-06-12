@@ -1,0 +1,41 @@
+.AdminLogin{
+   display:flex ;
+    height: 400px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.AdminLogin h1{
+    display:flex;
+
+
+}
+.AdminLogin form{
+    font-family: cursive;
+    text-align: center;
+    border: 2px solid black;
+}
+.AdminLogin input{
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px 10px;
+    border-bottom: 1px solid black;
+}
+.AdminLogin button{
+    margin-top: 20px;
+    padding: 2px 20px;
+    font-size: 22px;
+    background-color: rgb(255, 28, 28);
+    color: white;
+    border-radius: 10px;
+}
+.AdminLogin p{
+    margin-top: 20px;
+    padding: 2px 20px;
+    font-size: 22px;
+    background-color: rgb(255, 28, 28);
+    color: white;
+    border-radius: 10px;
+
+}

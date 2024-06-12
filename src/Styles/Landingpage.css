@@ -1,0 +1,41 @@
+.sub_lp{
+    display:flex;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    justify-content: space-around;
+    border:5px solid black;
+    border-radius: 20px;
+    /* padding-left: 30px; */
+   
+}
+/* .LandingPage{
+    padding-left: 50px;
+    text-align: center;
+    display: flex;
+    height: 80vh;
+    width: 80vw;
+    align-items:center;
+    justify-content: center;
+} */
+#i1{
+    height:160px;
+    width: 160px;
+    margin-bottom: 25px;
+    transition: 0.5s
+}
+#i2{
+    height: 160px;
+    width: 160px;
+    transition: .5s;
+}
+.sub_lp img:hover{
+    transform: scale(1.1);
+
+}
+.sub_lp a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    font-family: cursive;
+}
